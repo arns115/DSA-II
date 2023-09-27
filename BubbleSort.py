@@ -47,7 +47,8 @@ for m in range (1001):
     for a in range(m):
         list1.append(random.randint(-1000, 1000))
     x.append(m)
-    y.append(bubble_sort(list1))
+    bubble_sort(list1)
+    y.append(time)
     
 plt.plot(x, y)
 plt.show()
